@@ -114,6 +114,7 @@ html, body {
 }
 
 .landing .main-hero .hero-copy .hero-paragraph {
+  width: 446px;
   margin-top: 30px;
   line-height: 1.4;
   font-weight: 300;
