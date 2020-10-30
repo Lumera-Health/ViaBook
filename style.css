@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.landing {
+  background-color: #6d94d6;
+  height: 100vh;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+  z-index: 24;
+}
+
+.landing .corner-ball {
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  left: -200px/2;
+  top: -200px/2;
+}
+
+.landing .top-bar {
+  padding: 0 calc((100vw - 987px)/2);
+  margin: 0 49px;
+  margin-bottom: 147px;
+}
+
+.landing .top-bar .login-button {
+  transition: all 0.2s ease-in-out;
+  margin-top: 9px;
+  margin-right: -6px;
+  font-size: 0.95em;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 2px 5px 5px 5px;
+  border-radius: 3px;
+}
+
+.landing .top-bar .login-button:hover {
+  background-color: #ffffff1a;
+}
+
+.landing .main-hero {
+  padding: 0 calc((100vw - 987px)/2);
+  margin: 0 49px;
+  display: flex;
+  height: 600px;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.landing .main-hero .hero-copy {
+  width: 61%;
+}
+
+.landing .main-hero .hero-copy .hero-header {
+  font-size: 2.6em;
+  font-weight: 600;
+  line-height: 1.1;
+  width: 446px;
+}
+
+.landing .main-hero .hero-copy .hero-paragraph {
+  margin-top: 30px;
+  line-height: 1.4;
+  font-weight: 300;
+  font-size: 1.2em;
+  background-color: white;
+  border-radius: 5px;
+  color: red;
+  padding: 16px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.landing .footer-circle-container {
+  margin-top: 200px;
+  overflow: hidden;
+  height: 700px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing .footer-circle-container .hero-onboarding {
+  z-index: 2;
+}
+
+.landing .footer-circle-container .hero-onboarding .rfa-link {
+  color: #6d94d6;
+  height: 20px;
+}
+
+.landing .footer-circle-container .footer-circle {
+  border-radius: 50%;
+  background-color: #fbfbfb;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 1;
+  height: 290vw;
+  width: 290vw;
+  transform: translate(-50%, 90%);
+}
